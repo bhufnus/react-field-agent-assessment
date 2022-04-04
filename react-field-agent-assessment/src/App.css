@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.agent-table {
+  padding-left: 20px;
+}
+
+.table-head {
+  border-bottom: #282c34 3px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.add-entry {
+  flex-direction: column;
+  text-align: center;
+  justify-content: start;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin: auto;
+  align-items: baseline;
+  border: #282c34 10px;
+}
